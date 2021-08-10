@@ -1,0 +1,433 @@
+@media only screen and (min-width: 0) and (max-width: 767px){
+    .gridContainerC{
+        display: grid;
+            grid-template-areas:
+            "headC"
+            "sect1"
+            "sec2"
+            "sec3" 
+            "sec4"
+            "sec5" 
+            "fTopC"
+            "fBotC"
+            ;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto auto auto 280px 60px;
+    }
+    .headC {grid-area: headC;}
+    .sect1{grid-area: sect1;}
+    .sec2{grid-area: sec2;}
+    .sec3{grid-area: sec3;}
+    .sec4{grid-area: sec4;}
+    .sec5{grid-area: sec5;}
+    .fooTopC{grid-area: fTopC;}
+    .fooBotC{grid-area: fBotC;}
+
+    .headC {
+        background-size: cover;
+        background-color: rgb(41,55,53);
+        display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        margin: 0 0 1% 0;
+        overflow: hidden;
+        padding-top: 2%;
+        .headC__lista {
+            margin-top: 0;
+            margin-bottom: 1rem;
+            padding-left: 5%;
+            transition: padding 1s;
+            &:hover {
+                border-right: solid #efefef;
+                padding: 0 8%;
+            }
+            li {
+                width: 100%;
+                margin: 3% 0;
+                padding: 3% 0;
+                transition: border 0.5s;
+                &:hover{
+                    border: solid #efefef;
+                }
+                h2{
+                    padding: 0;
+                    margin: 0;
+                    width: 100%;
+                    font-size: 15px;
+                    color: #efefef;
+                    font-weight: 500;
+                }
+            }
+            
+        }
+        .headC__titulo {
+            width: 100%;
+            display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+            h1 {
+                display: none;
+                // width: 25%;
+                // font-size: 20px;
+                // color: #efefef;
+                // padding-left: 25%;
+            }
+            img {
+            width: 130px;
+            height: 70px;
+            padding-right: 30px;
+            box-sizing: border-box;}
+        }  
+    }
+    .sect1 img{
+        width: 100%;
+    }
+    div.fooTopC{
+        background-color: rgb(41,55,53);
+
+    }
+    div.fooTopC ul{
+        padding: 2% 0 0 0;
+        margin: 0;
+        list-style-type: none;
+        display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+    div.topImgC {
+        display: flex;
+            flex-direction: row;
+            justify-content: center;
+}
+    .fooTopC h2 {
+        color: #efefef;
+        font-size: 14px;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 5% 0;
+    }
+    div.fooTopC img {
+        width: 40px;
+        /* padding: ; */
+        filter: grayscale(100%);
+        transition: filter 0.4s;
+    }
+    div.fooTopC img:hover{
+        filter: grayscale(0%);
+    }
+    div.fooBotC {
+        display: flex;
+            align-items: center;
+        background-color: rgb(41,55,53);
+        margin-top: 1px;
+        overflow: hidden;
+    }
+    div.fooBotC h4{
+        color: #efefef;
+        padding: 20px;
+        font-size: 12px;
+    }
+    div.fooBotC {
+        overflow: hidden;
+    }
+    h3{
+        padding: 0 5%;
+    }
+    p{
+        padding: 0.5% 5%;
+        text-align: justify;
+    }
+    
+}
+@media only screen and (min-width: 767px) and (max-width:1048px) {
+    .gridContainerC{
+        display: grid;
+            grid-template-areas:
+            "headC"
+            "sect1"
+            "sec2"
+            "sec3" 
+            "sec4"
+            "sec5" 
+            "fTopC"
+            "fBotC"
+            ;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto auto auto 280px 60px;
+    }
+    .headC {grid-area: headC;}
+    .sect1{grid-area: sect1;}
+    .sec2{grid-area: sec2;}
+    .sec3{grid-area: sec3;}
+    .sec4{grid-area: sec4;}
+    .sec5{grid-area: sec5;}
+    .fooTopC{grid-area: fTopC;}
+    .fooBotC{grid-area: fBotC;}
+
+    .headC {
+        background-size: cover;
+        background-color: rgb(41,55,53);
+        display: flex;
+            flex-direction: column-reverse;
+        margin: 0 0 1% 0;
+        overflow: hidden;
+        .headC__lista {
+            padding: 0 1%;
+            margin: 0;
+            width: 100%;
+            display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+            transition: border-top 0.5s;
+            &:hover {
+                border-top: solid #efefef;
+            }
+            li {transition: transform 0.4s;
+                &:hover {transform: translateY(-7%);}
+                h2{
+                    width: 100%;
+                    font-size: 17px;
+                    color: #efefef;
+                    font-weight: 500;
+                }
+            }
+        }
+        .headC__titulo {
+            display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            height: 60px;
+            img {
+                width: 30%;
+                max-width: 75px;
+                height: 100%;
+                padding: 1% ;
+                box-sizing: border-box;
+            }
+            h1 {
+                width: 25%;
+                font-size: 25px;
+                color: #efefef;
+                font-weight: 500;
+                display: flex;
+                    align-items: center;
+            }
+        }
+    }
+    .sect1 img{
+        width: 100%;
+    }
+    div.fooTopC{
+        background-color: rgb(41,55,53);
+
+    }
+    div.fooTopC ul{
+        padding: 2% 0 0 0;
+        margin: 0;
+        list-style-type: none;
+        display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+    div.topImgC {
+        display: flex;
+            flex-direction: row;
+            justify-content: center;
+}
+    .fooTopC h2 {
+        color: #efefef;
+        font-size: 14px;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 5% 0;
+    }
+    div.fooTopC img {
+        width: 40px;
+        /* padding: ; */
+        filter: grayscale(100%);
+        transition: filter 0.4s;
+    }
+    div.fooTopC img:hover{
+        filter: grayscale(0%);
+    }
+    div.fooBotC {
+        display: flex;
+            align-items: center;
+        background-color: rgb(41,55,53);
+        margin-top: 1px;
+        overflow: hidden;
+    }
+    div.fooBotC h4{
+        color: #efefef;
+        padding: 20px;
+        font-size: 12px;
+    }
+    div.fooBotC {
+        overflow: hidden;
+    }
+    h3{
+        padding: 0 5%;
+    }
+    p{
+        padding: 0.5% 5%;
+        text-align: justify;
+    }
+}
+
+@media only screen and (min-width: 1048px){
+    .gridContainerC{
+        display: grid;
+            grid-template-areas:
+            "headC"
+            "sect1"
+            "sec2"
+            "sec3" 
+            "sec4"
+            "sec5" 
+            "fTopC"
+            "fBotC"
+            ;
+        grid-template-columns: 100%;
+        grid-template-rows: 120px auto auto auto auto auto 280px 60px;
+    }
+    .headC {grid-area: headC;}
+    .sect1{grid-area: sect1;}
+    .sec2{grid-area: sec2;}
+    .sec3{grid-area: sec3;}
+    .sec4{grid-area: sec4;}
+    .sec5{grid-area: sec5;}
+    .fooTopC{grid-area: fTopC;}
+    .fooBotC{grid-area: fBotC;}
+
+    header.headC {
+        background-size: cover;
+        background-color: rgb(41,55,53);
+        display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+            align-items: center;
+        overflow: hidden;
+    }
+    .headC ul {
+        padding: 0 4%;
+        margin: 1%;
+        width: 70%;
+        display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+        border-left: solid #efefef;
+        transition: border 0.5s;
+    }
+    .headC ul:hover {
+        border: solid #efefef;
+    }
+    .headC ul li{
+        padding-top: 0.9%;
+        display: flex;
+        align-items: center;
+        transition: transform 0.4s;
+    }
+    .headC ul li:hover {transform: translateY(-7%)
+    }
+    .headC div {
+        width: 30%;
+        display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        /* height: 60px; */
+    }
+    .headC img {
+        width: 50px;
+        /* max-width: 100px; */
+        height: 50px;
+        /* padding: 4% 1%; */
+    }
+    .headC h1 {
+        width: 25%;
+        font-size: 35px;
+        color: #efefef;
+    }
+    .headC ul li h2{
+        width: 100%;
+        font-size: 20px;
+        color: #efefef;
+        display: flex;
+            align-content: center;
+    }
+    .sect1 img{
+        width: 100%;
+    }
+    div.fooTopC{
+        background-color: rgb(41,55,53);
+
+    }
+    div.fooTopC ul{
+        padding: 2% 0 0 0;
+        margin: 0;
+        list-style-type: none;
+        display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+    div.topImgC {
+        display: flex;
+            flex-direction: row;
+            justify-content: center;
+}
+    .fooTopC h2 {
+        color: #efefef;
+        font-size: 14px;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 5% 0;
+    }
+    div.fooTopC img {
+        width: 40px;
+        /* padding: ; */
+        filter: grayscale(100%);
+        transition: filter 0.4s;
+    }
+    div.fooTopC img:hover{
+        filter: grayscale(0%);
+    }
+    div.fooBotC {
+        display: flex;
+            align-items: center;
+        background-color: rgb(41,55,53);
+        margin-top: 1px;
+        overflow: hidden;
+    }
+    div.fooBotC h4{
+        color: #efefef;
+        padding: 20px;
+        font-size: 12px;
+    }
+    div.fooBotC {
+        overflow: hidden;
+    }
+    h3{
+        padding: 0 5%;
+    }
+    p{
+        padding: 0.5% 5%;
+        text-align: justify;
+    }
+}
+.headC__lista {
+    list-style-type:none ;
+    text-transform: uppercase;
+}
+header.headC a, div.fooTopC ul a {
+    text-decoration: none;}
+
+
+body {margin: 0;}
