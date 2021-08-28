@@ -363,62 +363,55 @@
     .sect1 img{
         width: 100%;
     }
-    div.fooTopC{
+    .fooTopC{
         background-color: rgb(41,55,53);
-
-    }
-    div.fooTopC ul{
-        padding: 2% 0 0 0;
-        margin: 0;
-        list-style-type: none;
-        display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-around;
+        .fooTopC__lista{
+            li{height: 50px;
+            display: flex;
+            align-items: center;}
+            padding: 2% 0 0 0;
+            list-style-type: none;
+            display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+            margin: 0;
         }
-
-    div.topImgC {
-        display: flex;
-            flex-direction: row;
-            justify-content: center;
-}
-    .fooTopC h2 {
-        color: #efefef;
-        font-size: 14px;
-        text-transform: uppercase;
-        text-align: center;
-        padding: 5% 0;
+        .fooTopC__topImgC {
+            display: flex;
+                flex-direction: row;
+                justify-content: center;
+                img {
+                    width: 40px;
+                    padding: 2%;
+                    filter: grayscale(100%);
+                    transition: filter 0.4s;
+                    &:hover{
+                        filter: grayscale(0%);
+                    }
+                }
+        }
+        h2 {
+            font-weight: 500;
+            margin: 5% 0;
+            color: #efefef;
+            text-transform: uppercase;
+            font-size: 17px;
+            text-align: center;
+            padding: 5% 0;
+        }
     }
-    div.fooTopC img {
-        width: 40px;
-        /* padding: ; */
-        filter: grayscale(100%);
-        transition: filter 0.4s;
-    }
-    div.fooTopC img:hover{
-        filter: grayscale(0%);
-    }
-    div.fooBotC {
+    .fooBotC{
         display: flex;
             align-items: center;
         background-color: rgb(41,55,53);
         margin-top: 1px;
         overflow: hidden;
-    }
-    div.fooBotC h4{
-        color: #efefef;
-        padding: 20px;
-        font-size: 12px;
-    }
-    div.fooBotC {
-        overflow: hidden;
-    }
-    h3{
-        padding: 0 5%;
-    }
-    p{
-        padding: 0.5% 5%;
-        text-align: justify;
+        h4{
+            color: #efefef;
+            padding: 20px;
+            font-size: 16px;
+        }
     }
 }
 .headC__lista {

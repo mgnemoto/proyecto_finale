@@ -1566,50 +1566,49 @@ body {
       color: #efefef; }
   .sect1 img {
     width: 100%; }
-  div.fooTopC {
+  .fooTopC {
     background-color: #293735; }
-  div.fooTopC ul {
-    padding: 2% 0 0 0;
-    margin: 0;
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around; }
-  div.topImgC {
-    display: flex;
-    flex-direction: row;
-    justify-content: center; }
-  .fooTopC h2 {
-    color: #efefef;
-    font-size: 14px;
-    text-transform: uppercase;
-    text-align: center;
-    padding: 5% 0; }
-  div.fooTopC img {
-    width: 40px;
-    /* padding: ; */
-    filter: grayscale(100%);
-    transition: filter 0.4s; }
-  div.fooTopC img:hover {
-    filter: grayscale(0%); }
-  div.fooBotC {
+    .fooTopC .fooTopC__lista {
+      padding: 2% 0 0 0;
+      list-style-type: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      margin: 0; }
+      .fooTopC .fooTopC__lista li {
+        height: 50px;
+        display: flex;
+        align-items: center; }
+    .fooTopC .fooTopC__topImgC {
+      display: flex;
+      flex-direction: row;
+      justify-content: center; }
+      .fooTopC .fooTopC__topImgC img {
+        width: 40px;
+        padding: 2%;
+        filter: grayscale(100%);
+        transition: filter 0.4s; }
+        .fooTopC .fooTopC__topImgC img:hover {
+          filter: grayscale(0%); }
+    .fooTopC h2 {
+      font-weight: 500;
+      margin: 5% 0;
+      color: #efefef;
+      text-transform: uppercase;
+      font-size: 17px;
+      text-align: center;
+      padding: 5% 0; }
+  .fooBotC {
     display: flex;
     align-items: center;
     background-color: #293735;
     margin-top: 1px;
     overflow: hidden; }
-  div.fooBotC h4 {
-    color: #efefef;
-    padding: 20px;
-    font-size: 12px; }
-  div.fooBotC {
-    overflow: hidden; }
-  h3 {
-    padding: 0 5%; }
-  p {
-    padding: 0.5% 5%;
-    text-align: justify; } }
+    .fooBotC h4 {
+      color: #efefef;
+      padding: 20px;
+      font-size: 16px; } }
 
 .headC__lista {
   list-style-type: none;
