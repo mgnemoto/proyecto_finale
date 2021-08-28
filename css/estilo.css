@@ -1998,7 +1998,7 @@ body {
 .pad-bot {
   padding: 1% 2% 2% 2%; }
 
-.headCom a, div.fooTopMCom ul a {
+.headCom a, div.fooTopCom ul li a {
   text-decoration: none; }
 
 .headCom ul {
