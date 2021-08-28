@@ -8,7 +8,7 @@
             "footopM"
             "foobotM";
         grid-template-columns: 100%;
-        grid-template-rows: auto auto auto 220px 100px;
+        grid-template-rows: auto auto auto auto auto;
     }
 
     .headM{grid-area: headM;}
@@ -167,7 +167,7 @@
             "footop"
             "foobot";
         grid-template-columns: 100%;
-        grid-template-rows: 130px auto auto 220px 100px;
+        grid-template-rows: 130px auto auto auto auto;
     }
     .headM{grid-area: head;}
     .img{grid-area: img;}
@@ -316,7 +316,7 @@
             "footop"
             "foobot";
         grid-template-columns: 100%;
-        grid-template-rows: 170px auto auto 220px 80px;
+        grid-template-rows: 170px auto auto auto auto;
     }
     .headM{grid-area: head;}
     .imgM{grid-area: img;}

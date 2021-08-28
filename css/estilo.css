@@ -3,7 +3,7 @@
     display: grid;
     grid-template-areas: "head head" "secTop secTop" "sCenter sCenter" "sBot sBot" "fooTop fooTop" "fooBot fooBot";
     grid-template-columns: 50% 50%;
-    grid-template-rows: auto auto auto auto 200px 40px; }
+    grid-template-rows: auto auto auto auto auto auto; }
   header.head {
     grid-area: head; }
   div.secTop {
@@ -141,7 +141,7 @@
     display: grid;
     grid-template-areas: "head head" "secTop secTop" "sCenter sCenter" "sBot sBot" "fooTop fooTop" "fooBot fooBot";
     grid-template-columns: 50% 50%;
-    grid-template-rows: auto auto auto auto 250px 40px; }
+    grid-template-rows: auto auto auto auto auto auto; }
   header.head {
     grid-area: head; }
   div.secTop {
@@ -199,10 +199,12 @@
     div.secTop img {
       width: 99%; }
   .carousel-item h5 {
+    text-align: center;
     color: black;
     font-weight: 700;
     font-size: 20px; }
   .carousel-item p {
+    text-align: center;
     color: black;
     font-weight: 600;
     font-size: 13px; }
@@ -287,7 +289,7 @@
     display: grid;
     grid-template-areas: "head head" "sTop sTop" "sLeft sRight"   "fTop fTop" "fBot fBot";
     grid-template-columns: 50% 50%;
-    grid-template-rows: 130px auto auto 230px 60px; }
+    grid-template-rows: 130px auto auto auto auto; }
   .head {
     grid-area: head; }
   .secTop {
@@ -350,10 +352,12 @@
     div.secTop img {
       width: 99%; }
   .carousel-item h5 {
+    text-align: center;
     color: black;
     font-weight: 700;
     font-size: 35px; }
   .carousel-item p {
+    text-align: center;
     color: black;
     font-weight: 600;
     font-size: 25px; }
@@ -448,7 +452,7 @@ body {
     display: grid;
     grid-template-areas: "headM" "img" "nav" "footopM" "foobotM";
     grid-template-columns: 100%;
-    grid-template-rows: auto auto auto 220px 100px; }
+    grid-template-rows: auto auto auto auto auto; }
   .headM {
     grid-area: headM; }
   .imgM {
@@ -578,7 +582,7 @@ body {
     display: grid;
     grid-template-areas: "head" "img" "nav" "footop" "foobot";
     grid-template-columns: 100%;
-    grid-template-rows: 130px auto auto 220px 100px; }
+    grid-template-rows: 130px auto auto auto auto; }
   .headM {
     grid-area: head; }
   .img {
@@ -704,7 +708,7 @@ body {
     display: grid;
     grid-template-areas: "head" "img" "nav" "footop" "foobot";
     grid-template-columns: 100%;
-    grid-template-rows: 170px auto auto 220px 80px; }
+    grid-template-rows: 170px auto auto auto auto; }
   .headM {
     grid-area: head; }
   .imgM {
@@ -852,7 +856,7 @@ body {
     display: grid;
     grid-template-areas: "headCon" "encabezadoCon" "cuerpo" "fTopCon" "fBotCon";
     grid-template-columns: 100%;
-    grid-template-rows: auto auto auto 210px 60px; }
+    grid-template-rows: auto auto auto auto auto; }
   .headCon {
     grid-area: headCon; }
   .encabezadoCon {
@@ -987,7 +991,7 @@ body {
     display: grid;
     grid-template-areas: "headCon" "encabezadoCon" "cuerpo" "fTopCon" "fBotCon";
     grid-template-columns: 100%;
-    grid-template-rows: auto auto auto 210px 60px; }
+    grid-template-rows: auto auto auto auto auto; }
   .headCon {
     grid-area: headCon; }
   .encabezadoCon {
@@ -1117,7 +1121,7 @@ body {
     display: grid;
     grid-template-areas: "headCon" "encabezadoCon" "cuerpo" "fTopCon" "fBotCon";
     grid-template-columns: 100%;
-    grid-template-rows: auto auto auto 250px auto; }
+    grid-template-rows: auto auto auto auto auto; }
   .headCon {
     grid-area: headCon; }
   .encabezadoCon {
@@ -1187,7 +1191,7 @@ body {
       height: 130px; }
       .encabezadoCon div h5 {
         padding: 3% 0 3% 4%;
-        font-size: 19px;
+        font-size: 25px;
         font-weight: 600; }
   .cuerpo h2 {
     padding-left: 2%;
@@ -1268,7 +1272,7 @@ body {
     display: grid;
     grid-template-areas: "headC" "sect1" "sec2" "sec3"  "sec4" "sec5"  "fTopC" "fBotC";
     grid-template-columns: 100%;
-    grid-template-rows: auto auto auto auto auto auto 280px 60px; }
+    grid-template-rows: auto auto auto auto auto auto auto auto; }
   .headC {
     grid-area: headC; }
   .sect1 {
@@ -1380,7 +1384,7 @@ body {
     display: grid;
     grid-template-areas: "headC" "sect1" "sec2" "sec3"  "sec4" "sec5"  "fTopC" "fBotC";
     grid-template-columns: 100%;
-    grid-template-rows: auto auto auto auto auto auto 280px 60px; }
+    grid-template-rows: auto auto auto auto auto auto auto auto; }
   .headC {
     grid-area: headC; }
   .sect1 {
@@ -1494,7 +1498,7 @@ body {
     display: grid;
     grid-template-areas: "headC" "sect1" "sec2" "sec3"  "sec4" "sec5"  "fTopC" "fBotC";
     grid-template-columns: 100%;
-    grid-template-rows: 120px auto auto auto auto auto 280px 60px; }
+    grid-template-rows: 120px auto auto auto auto auto auto auto; }
   .headC {
     grid-area: headC; }
   .sect1 {
@@ -1511,55 +1515,55 @@ body {
     grid-area: fTopC; }
   .fooBotC {
     grid-area: fBotC; }
-  header.headC {
+  .headC {
     background-size: cover;
     background-color: #293735;
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
-    overflow: hidden; }
-  .headC ul {
-    padding: 0 4%;
-    margin: 1%;
-    width: 70%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    border-left: solid #efefef;
-    transition: border 0.5s; }
-  .headC ul:hover {
-    border: solid #efefef; }
-  .headC ul li {
-    padding-top: 0.9%;
-    display: flex;
-    align-items: center;
-    transition: transform 0.4s; }
-  .headC ul li:hover {
-    transform: translateY(-7%); }
-  .headC div {
-    width: 30%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    /* height: 60px; */ }
-  .headC img {
-    width: 50px;
-    /* max-width: 100px; */
-    height: 50px;
-    /* padding: 4% 1%; */ }
-  .headC h1 {
-    width: 25%;
-    font-size: 35px;
-    color: #efefef; }
-  .headC ul li h2 {
-    width: 100%;
-    font-size: 20px;
-    color: #efefef;
-    display: flex;
-    align-content: center; }
+    overflow: hidden;
+    padding: 2% 0; }
+    .headC .headC__lista {
+      padding: 0% 4%;
+      margin: 1%;
+      width: 70%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      border-left: solid #efefef;
+      transition: border 0.5s; }
+      .headC .headC__lista:hover {
+        border: solid #efefef; }
+      .headC .headC__lista li {
+        height: 38px;
+        padding-top: 0.9%;
+        display: flex;
+        align-items: center;
+        transition: transform 0.4s; }
+        .headC .headC__lista li:hover {
+          transform: translateY(-7%); }
+        .headC .headC__lista li h2 {
+          font-weight: 500;
+          width: 100%;
+          font-size: 20px;
+          color: #efefef;
+          display: flex;
+          align-content: center; }
+    .headC .headC__titulo {
+      width: 30%;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center; }
+      .headC .headC__titulo img {
+        width: 17%; }
+    .headC h1 {
+      font-weight: 500;
+      width: 25%;
+      font-size: 35px;
+      color: #efefef; }
   .sect1 img {
     width: 100%; }
   div.fooTopC {
@@ -1615,6 +1619,7 @@ header.headC a, div.fooTopC ul a {
   text-decoration: none; }
 
 body {
+  font-family: 'Montserrat', sans-serif;
   margin: 0; }
 
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -1622,7 +1627,7 @@ body {
     display: grid;
     grid-template-areas: "headCom" "encabezadoCom" "tortas" "galletas" "bundtcakes" "brownies"  "contacto" "footopCom" "foobotCom";
     grid-template-columns: 100%;
-    grid-template-rows: auto auto auto auto auto auto auto 200px 40px; }
+    grid-template-rows: auto auto auto auto auto auto auto auto auto; }
   .headCom {
     grid-area: headCom; }
   .encabezadoCom {
@@ -1743,7 +1748,7 @@ body {
     display: grid;
     grid-template-areas: "headCom headCom" "encabezadoCom encabezadoCom" "brownies galletas" "bundtcakes tortas" "contacto contacto" "footopCom footopCom" "foobotCom foobotCom";
     grid-template-columns: 50% 50%;
-    grid-template-rows: auto auto auto auto auto 200px 40px; }
+    grid-template-rows: auto auto auto auto auto auto auto; }
   .headCom {
     grid-area: headCom; }
   .encabezadoCom {
@@ -1864,7 +1869,7 @@ body {
     display: grid;
     grid-template-areas: "headCom headCom headCom headCom" "encabezadoCom encabezadoCom encabezadoCom encabezadoCom" "brownies galletas bundtcakes tortas" "contacto contacto contacto contacto" "footopCom footopCom footopCom footopCom" "foobotCom foobotCom foobotCom foobotCom";
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: auto auto auto auto 200px 40px; }
+    grid-template-rows: auto auto auto auto auto auto; }
   .headCom {
     grid-area: headCom; }
   .encabezadoCom {
@@ -1986,6 +1991,12 @@ body {
       color: #efefef;
       padding: 20px;
       font-size: 12px; } }
+
+.pad-top {
+  padding: 2% 2% 1% 2%; }
+
+.pad-bot {
+  padding: 1% 2% 2% 2%; }
 
 .headCom a, div.fooTopMCom ul a {
   text-decoration: none; }
