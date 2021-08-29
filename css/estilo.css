@@ -1332,8 +1332,23 @@ body {
         height: 70px;
         padding-right: 30px;
         box-sizing: border-box; }
-  .sect1 img {
-    width: 100%; }
+  .sect1 {
+    height: 100%; }
+    .sect1 img {
+      padding: 0 2%;
+      width: 96%;
+      height: 85%;
+      margin: 0; }
+    .sect1 div {
+      background-color: #fbf5ee; }
+      .sect1 div h5 {
+        height: 20%;
+        margin: 0;
+        padding: 3% 0 3% 4%;
+        font-size: 19px;
+        font-weight: 600; }
+  .sec-conocenos {
+    padding: 1% 2%; }
   div.fooTopC {
     background-color: #293735; }
   div.fooTopC ul {
@@ -1446,8 +1461,23 @@ body {
         font-weight: 500;
         display: flex;
         align-items: center; }
-  .sect1 img {
-    width: 100%; }
+  .sect1 {
+    height: 100%; }
+    .sect1 img {
+      padding: 0 2%;
+      width: 96%;
+      height: 85%;
+      margin: 0; }
+    .sect1 div {
+      background-color: #fbf5ee; }
+      .sect1 div h5 {
+        height: 20%;
+        margin: 0;
+        padding: 3% 0 3% 4%;
+        font-size: 25px;
+        font-weight: 600; }
+  .sec-conocenos {
+    padding: 1% 2%; }
   div.fooTopC {
     background-color: #293735; }
   div.fooTopC ul {
@@ -1564,8 +1594,23 @@ body {
       width: 25%;
       font-size: 35px;
       color: #efefef; }
-  .sect1 img {
-    width: 100%; }
+  .sect1 {
+    height: 100%; }
+    .sect1 img {
+      padding: 0 2%;
+      width: 96%;
+      height: 85%;
+      margin: 0; }
+    .sect1 div {
+      background-color: #fbf5ee; }
+      .sect1 div h5 {
+        height: 20%;
+        margin: 0;
+        padding: 3% 0 3% 4%;
+        font-size: 25px;
+        font-weight: 600; }
+  .sec-conocenos {
+    padding: 1% 2%; }
   .fooTopC {
     background-color: #293735; }
     .fooTopC .fooTopC__lista {

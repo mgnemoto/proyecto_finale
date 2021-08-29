@@ -79,8 +79,27 @@
             box-sizing: border-box;}
         }  
     }
-    .sect1 img{
-        width: 100%;
+    .sect1{
+        height: 100%;
+        img{
+            padding: 0 2% ;
+            width: 96%;
+            height: 85%;
+            margin: 0;
+        }
+        div {
+            background-color: rgb(251,245,238);
+            h5{
+                height: 20%;
+                margin: 0;
+                padding: 3% 0 3% 4%;
+                font-size: 19px;
+                font-weight: 600;
+            }
+        }
+    }
+    .sec-conocenos{
+        padding: 1% 2%;
     }
     div.fooTopC{
         background-color: rgb(41,55,53);
@@ -217,8 +236,27 @@
             }
         }
     }
-    .sect1 img{
-        width: 100%;
+    .sect1{
+        height: 100%;
+        img{
+            padding: 0 2% ;
+            width: 96%;
+            height: 85%;
+            margin: 0;
+        }
+        div {
+            background-color: rgb(251,245,238);
+            h5{
+                height: 20%;
+                margin: 0;
+                padding: 3% 0 3% 4%;
+                font-size: 25px;
+                font-weight: 600;
+            }
+        }
+    }
+    .sec-conocenos{
+        padding: 1% 2%;
     }
     div.fooTopC{
         background-color: rgb(41,55,53);
@@ -360,8 +398,28 @@
             color: #efefef;
         }
     }
-    .sect1 img{
-        width: 100%;
+
+    .sect1{
+        height: 100%;
+        img{
+            padding: 0 2% ;
+            width: 96%;
+            height: 85%;
+            margin: 0;
+        }
+        div {
+            background-color: rgb(251,245,238);
+            h5{
+                height: 20%;
+                margin: 0;
+                padding: 3% 0 3% 4%;
+                font-size: 25px;
+                font-weight: 600;
+            }
+        }
+    }
+    .sec-conocenos{
+        padding: 1% 2%;
     }
     .fooTopC{
         background-color: rgb(41,55,53);
